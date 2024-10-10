@@ -1,15 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<employees>
-    <employee>
-        <id>101</id>
-        <name>John Doe</name>
-        <department>Finance</department>
-        <salary>5000</salary>
-    </employee>
-    <employee>
-        <id>102</id>
-        <name>Jane Smith</name>
-        <department>HR</department>
-        <salary>4500</salary>
-    </employee>
-</employees>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.12">
+    <BkToCstmrStmt>
+        <GrpHdr>
+            <MsgId>123456789</MsgId>
+            <CreDtTm>2023-10-10T10:00:00.000Z</CreDtTm>
+            <MsgRcpt>
+                <Nm>Dummy Client Ltd.</Nm>
+                <Id>
+                    <OrgId>
+                        <Othr>
+                            <Id>dummy001</Id>
+                        </Othr>
+                    </OrgId>
+                </Id>
+            </MsgRcpt>
+        </GrpHdr>
+        <Stmt>
+            <Id>987654321</Id>
+            <ElctrncSeqNb>1</ElctrncSeqNb>
+            <LglSeqNb>1</LglSeqNb>
+            <CreDtTm>2023-10-10T10:00:00.000Z</CreDtTm>
+            <FrToDt>
+                <FrDtTm>2023-10-01T00:00:00.000Z</FrDtTm>
+                <ToDtTm>2023-10-10T00:00:00.000Z</ToDtTm>
+            </FrToDt>
+            <Acct>
+                <Id>
+                    <Othr>
+                        <Id>DD01100012345</Id>
+                    </Othr>
+                </Id>
+                <Tp>
+                    <Prtry>IBDA_DDA</Prtry>
+                </Tp>
+                <Ccy>USD</Ccy>
+                <Nm>Dummy Account</Nm>
+                <Svcr>
+                    <FinInstnId>
+                        <BIC>DUMMYBIC</BIC>
+                        <Nm>Dummy Bank</Nm>
+                    </FinInstnId>
+                </Svcr>
+            </Acct>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>OPBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">1000.00</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-10-01T00:00:00.000Z</DtTm>
+                </Dt>
+            </Bal>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>CLBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">1500.00</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-10-10T00:00:00.000Z</DtTm>
+                </Dt>
+            </Bal>
+            <TxsSummry>
+                <TtlNtries>
+                    <NbOfNtries>5</NbOfNtries>
+                    <Sum>500.00</Sum>
+                    <TtlNetNtryAmt>500.00</TtlNetNtryAmt>
+                    <CdtDbtInd>CRDT</CdtDbtInd>
+                </TtlNtries>
+                <TtlCdtNtries>
+                    <NbOfNtries>3</NbOfNtries>
+                    <Sum>300.00</Sum>
+                </TtlCdtNtries>
+                <TtlDbtNtries>
+                    <NbOfNtries>2</NbOfNtries>
+                    <Sum>200.00</Sum>
+                </TtlDbtNtries>
+            </TxsSummry>
+            <Ntry>
+                <NtryRef>123456</NtryRef>
+                <Amt Ccy="USD">100.00</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <RvslInd>false</RvslInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <DtTm>2023-10-05T10:00:00.000Z</DtTm>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2023-10-05</Dt>
+                </ValDt>
+                <BkTxCd>
+                    <Prtry>
+                        <Cd>ACH Credit</Cd>
+                    </Prtry>
+                </BkTxCd>
+                <NtryDtls>
+                    <TxDtls>
+                        <Refs>
+                            <MsgId>MSG123</MsgId>
+                            <AcctSvcrRef>REF123</AcctSvcrRef>
+                        </Refs>
+                        <AmtDtls>
+                            <InstdAmt>
+                                <Amt Ccy="USD">100.00</Amt>
+                            </InstdAmt>
+                            <TxAmt>
+                                <Amt Ccy="USD">100.00</Amt>
+                            </TxAmt>
+                        </AmtDtls>
+                        <RltdPties>
+                            <Cdtr>
+                                <Nm>Creditor Name</Nm>
+                            </Cdtr>
+                            <CdtrAcct>
+                                <Id>
+                                    <Othr>
+                                        <Id>CRD123</Id>
+                                    </Othr>
+                                </Id>
+                            </CdtrAcct>
+                        </RltdPties>
+                        <RmtInf>
+                            <Ustrd>Payment for invoice 123</Ustrd>
+                        </RmtInf>
+                    </TxDtls>
+                </NtryDtls>
+            </Ntry>
+        </Stmt>
+    </BkToCstmrStmt>
+</Document>
