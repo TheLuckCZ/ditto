@@ -1,12 +1,165 @@
-[
-  {
-    "name":"Endgame",
-    "studio":"Marvel",
-    "rating":9.2
-  },
-  {
-    "name":"Shazam",
-    "studio":"Warner Bros",
-    "rating":7.6
+{
+  "BkToCstmrAcctRpt": {
+    "GrpHdr": {
+      "CreDtTm": "2024-11-17T14:11:57+01:00",
+      "MsgId": "camt.052-2024-1117-225"
+    },
+    "Rpt": {
+      "Id": "CZ5320600000000001190299-2024-11-17",
+      "CreDtTm": "2024-11-17T14:11:57+01:00",
+      "FrToDt": {
+        "FrDtTm": "2024-11-11T00:00:00+01:00",
+        "ToDtTm": "2024-11-15T23:59:59+01:00"
+      },
+      "Acct": {
+        "Id": {
+          "Item": {
+            "$type": "GenericAccountIdentification1",
+            "Id": "1190299/2060"
+          }
+        },
+        "Ccy": "CZK"
+      },
+      "Bal": [
+        {
+          "Tp": {
+            "CdOrPrtry": {
+              "Item": "PRCD"
+            }
+          },
+          "Amt": {
+            "Ccy": "CZK",
+            "Value": "3120398.94"
+          },
+          "CdtDbtInd": "CRDT",
+          "Dt": {
+            "Item": "2024-11-11",
+            "ItemElementName": "Dt"
+          }
+        },
+        {
+          "Tp": {
+            "CdOrPrtry": {
+              "Item": "CLBD"
+            }
+          },
+          "Amt": {
+            "Ccy": "CZK",
+            "Value": "11164180.16"
+          },
+          "CdtDbtInd": "CRDT",
+          "Dt": {
+            "Item": "2024-11-15",
+            "ItemElementName": "Dt"
+          }
+        }
+      ],
+      "Ntry": [
+        {
+          "NtryRef": "87331499",
+          "Amt": {
+            "Ccy": "CZK",
+            "Value": "9103.65"
+          },
+          "CdtDbtInd": "CRDT",
+          "RvslInd": false,
+          "Sts": "BOOK",
+          "BookgDt": {
+            "Item": "2024-11-12",
+            "ItemElementName": "Dt"
+          },
+          "ValDt": {
+            "Item": "2024-11-12",
+            "ItemElementName": "Dt"
+          },
+          "BkTxCd": {
+            "Prtry": {
+              "Cd": "203"
+            }
+          },
+          "NtryDtls": [
+            {
+              "TxDtls": [
+                {
+                  "Refs": {
+                    "AcctSvcrRef": "87331499"
+                  },
+                  "RltdPties": {
+                    "Dbtr": {
+                      "Nm": "Lukáš Franz"
+                    },
+                    "DbtrAcct": {
+                      "Id": {
+                        "Item": {
+                          "Id": "1005770017/3030",
+                          "$type": "GenericAccountIdentification1"
+                        }
+                      }
+                    }
+                  },
+                  "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "NtryRef": "87331592",
+          "Amt": {
+            "Ccy": "CZK",
+            "Value": "1000.00"
+          },
+          "CdtDbtInd": "CRDT",
+          "RvslInd": false,
+          "Sts": "BOOK",
+          "BookgDt": {
+            "Item": "2024-11-12",
+            "ItemElementName": "Dt"
+          },
+          "ValDt": {
+            "Item": "2024-11-12",
+            "ItemElementName": "Dt"
+          },
+          "BkTxCd": {
+            "Prtry": {
+              "Cd": "203"
+            }
+          },
+          "NtryDtls": [
+            {
+              "TxDtls": [
+                {
+                  "Refs": {
+                    "AcctSvcrRef": "87331592"
+                  },
+                  "RltdPties": {
+                    "Dbtr": {
+                      "Nm": "VIKTOR ABEL"
+                    },
+                    "DbtrAcct": {
+                      "Id": {
+                        "Item": {
+                          "Id": "87032100/5500",
+                          "$type": "GenericAccountIdentification1"
+                        }
+                      }
+                    }
+                  },
+                  "RmtInf": {
+                    "Ustrd": [
+                      "Viktor Abel"
+                    ]
+                  },
+                  "AddtlTxInf": {
+                    "operationTypeName" : "Příchozí platba tuzemská",
+                    "paymentPriority": "YES"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
-]
+}

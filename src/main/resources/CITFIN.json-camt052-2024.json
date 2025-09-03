@@ -1,0 +1,3178 @@
+{
+    "BkToCstmrAcctRpt": {
+        "GrpHdr": {
+            "CreDtTm": "2024-11-17T14:11:57+01:00",
+            "MsgId": "camt.052-2024-1117-225"
+        },
+        "Rpt": {
+            "Id": "CZ5320600000000001190299-2024-11-17",
+            "CreDtTm": "2024-11-17T14:11:57+01:00",
+            "FrToDt": {
+                "FrDtTm": "2024-11-11T00:00:00+01:00",
+                "ToDtTm": "2024-11-15T23:59:59+01:00"
+            },
+            "Acct": {
+                "Id": {
+                    "Item": {
+                        "$type": "GenericAccountIdentification1",
+                        "Id": "1190299/2060"
+                    }
+                },
+                "Ccy": "CZK"
+            },
+            "Bal": [
+                {
+                    "Tp": {
+                        "CdOrPrtry": {
+                            "Item": "PRCD"
+                        }
+                    },
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "3120398.94"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "Dt": {
+                        "Item": "2024-11-11",
+                        "ItemElementName": "Dt"
+                    }
+                },
+                {
+                    "Tp": {
+                        "CdOrPrtry": {
+                            "Item": "CLBD"
+                        }
+                    },
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "11164180.16"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "Dt": {
+                        "Item": "2024-11-15",
+                        "ItemElementName": "Dt"
+                    }
+                }
+            ],
+            "Ntry": [
+                {
+                    "NtryRef": "87331499",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "9103.65"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87331499"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Lukáš Franz"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1005770017/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87331592",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87331592"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "VIKTOR ABEL"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "87032100/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Viktor Abel"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87331903",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "30000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87331903"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Jan Mikuš"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1023130531/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87331910",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "10000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87331910"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Jan Mikuš"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1023130531/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87332099",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87332099"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "GACOV MAREK"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "271831762/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87332215",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "4000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87332215"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Ing.Gruber Jan,Ph.D."
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1263208043/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Jan Gruber"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87332225",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "5000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87332225",
+                                        "EndToEndId": "5275517470"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "JAN BADAL"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "43-7154850237/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "BIT.PLUS NAKUP KRYPTOMENY"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87332353",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87332353"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Hromník Ivan"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1349960033/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87332421",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87332421"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "KOVACIK ANDREJ"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "238363434/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87341220",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "3000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87341220"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Věra Lukoszová"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1141927015/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87341236",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "5000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87341236"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Šárka Korunková"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1244055037/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87341238",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87341238"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Petr Bárta"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1137093038/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87342100",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "200000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87342100",
+                                        "InstrId": "308",
+                                        "EndToEndId": "41025903"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Kremser, Karel"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2100088520/2010",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Kremser Karel"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87342139",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "4000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87342139"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Dvořák, Michal"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2100280483/2010",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87342193",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "30000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87342193"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Alföldi Radek"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "827766143/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87342259",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "3750.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87342259"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "MICHAEL VÁLKA"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "43-2791410207/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343365",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "750.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343365"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Pavel Houda"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "7603060055/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343388",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "5000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343388",
+                                        "PmtInfId": "444",
+                                        "EndToEndId": "5275517470"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "43-7154850237/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Vraceni chybne platby"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343390",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343390"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343683",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "199000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343683",
+                                        "EndToEndId": "3110333"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1685834028/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343685",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343685"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343687",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2500.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343687",
+                                        "EndToEndId": "3110614"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "4096963001/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343689",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343689"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343691",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "7200.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343691",
+                                        "EndToEndId": "3110421"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "177495395/0600",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343693",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343693"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343695",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "343500.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343695",
+                                        "EndToEndId": "3110336"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1685834028/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343697",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343697"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343699",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "49892.54"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343699",
+                                        "EndToEndId": "3110652"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1549876020/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343701",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343701"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343703",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "249000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343703",
+                                        "EndToEndId": "3110748"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "107-4180620247/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343705",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343705"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87343707",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "39000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-12",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87343707",
+                                        "EndToEndId": "3110758"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2800228782/2010",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378264",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "50458.10"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378264",
+                                        "EndToEndId": "3111428"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2806196769/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378266",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378266"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378268",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "10000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378268",
+                                        "EndToEndId": "3111434"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "575849523/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378270",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378270"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378272",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1014000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378272",
+                                        "EndToEndId": "3111440"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2409397073/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378274",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378274"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378276",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "10976.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378276",
+                                        "EndToEndId": "3111448"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "101830978/2250",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378278",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378278"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378280",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "770.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378280",
+                                        "EndToEndId": "3111449"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1829067033/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378282",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378282"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378284",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "50000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378284",
+                                        "EndToEndId": "3111450"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "301526698/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378286",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378286"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87378414",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "25000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-13",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87378414"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "HERAL JAN"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "347982234/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87384482",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "17.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87384482"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Kročková, Martina"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2802167506/2010",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385002",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "190000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385002"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "VRHEL JOSEF"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "112235226/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385016",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "10000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385016"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "JINDRA PETR"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "110803250/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Petr Jindra"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385062",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "24000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385062"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "OSTRÝŽ MILOŠ"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "78-8080640257/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385168",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385168"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Doc.Ing.Formánková S"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1386068183/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385186",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "5000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385186"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "JURÁNEK PETR"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "9509330257/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "BIT.PLUS"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87385202",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1150.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87385202"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "HOLOVSKY ROBERT"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "110697769/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "sporeni do zlata"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87395888",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "50000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87395888"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "ABRHÁMOVÁ MARTINA"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "107-4782330247/0100",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87395904",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1500.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87395904"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "SVETINSKY PAVEL"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "193695442/0300",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87396189",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "4000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87396189"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Tomáš Tasev"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1740879019/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87397264",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87397264"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "MAREK NUMERATO"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "670100-2207128510/6210",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "PŘEVOD PROSTŘEDKŮ SPOŘENÍ"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87397306",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87397306",
+                                        "EndToEndId": "561118"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Skýpala, Petr"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2200332439/2010",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "SKP/Gold_invest"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87398884",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1050.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87398884"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Šimon Hejtmánek"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1036171885/5500",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Creating Bit.plus account, SIMON HE JTMANEK"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87398924",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "1000.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87398924"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Alltman David"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2758635033/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87398944",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "176100.00"
+                    },
+                    "CdtDbtInd": "CRDT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "203"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87398944"
+                                    },
+                                    "RltdPties": {
+                                        "Dbtr": {
+                                            "Nm": "Chodil Martin"
+                                        },
+                                        "DbtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1951122083/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Martin Chodil"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Příchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87400554",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "195500.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87400554",
+                                        "EndToEndId": "3111486"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2489367017/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87400556",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87400556"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87400558",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "400000.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87400558",
+                                        "EndToEndId": "3111619"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1842672123/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87400560",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87400560"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87400562",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2020.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-14",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87400562",
+                                        "EndToEndId": "3111658"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "2742496083/0800",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87430552",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "152062.69"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-15",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-15",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "103"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87430552",
+                                        "EndToEndId": "3111380"
+                                    },
+                                    "RltdPties": {
+                                        "CdtrAcct": {
+                                            "Id": {
+                                                "Item": {
+                                                    "Id": "1346369029/3030",
+                                                    "$type": "GenericAccountIdentification1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Odchozí platba tuzemská\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "NtryRef": "87430554",
+                    "Amt": {
+                        "Ccy": "CZK",
+                        "Value": "2.00"
+                    },
+                    "CdtDbtInd": "DBIT",
+                    "RvslInd": false,
+                    "Sts": "BOOK",
+                    "BookgDt": {
+                        "Item": "2024-11-15",
+                        "ItemElementName": "Dt"
+                    },
+                    "ValDt": {
+                        "Item": "2024-11-15",
+                        "ItemElementName": "Dt"
+                    },
+                    "BkTxCd": {
+                        "Prtry": {
+                            "Cd": "165"
+                        }
+                    },
+                    "NtryDtls": [
+                        {
+                            "TxDtls": [
+                                {
+                                    "Refs": {
+                                        "AcctSvcrRef": "87430554"
+                                    },
+                                    "RmtInf": {
+                                        "Ustrd": [
+                                            "Odchozí platba tuzemská"
+                                        ]
+                                    },
+                                    "AddtlTxInf": "{\"operationTypeName\":\"Poplatek\",\"paymentPriority\":\"NO\"}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
