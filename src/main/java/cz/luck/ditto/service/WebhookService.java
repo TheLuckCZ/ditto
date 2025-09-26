@@ -1,6 +1,5 @@
 package cz.luck.ditto.service;
 
-import cz.luck.ditto.controller.MainController;
 import cz.luck.ditto.model.WebhookBody;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +13,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestTemplate;
 
-import java.net.ConnectException;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
@@ -22,9 +20,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-public class SubscriptionService {
+public class WebhookService {
 
-    private static final Logger log = LoggerFactory.getLogger(SubscriptionService.class);
+    private static final Logger log = LoggerFactory.getLogger(WebhookService.class);
 
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
 
@@ -86,7 +84,5 @@ public class SubscriptionService {
 
         return webhookBody;
     }
-
-
 
 }
